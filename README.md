@@ -1,9 +1,7 @@
 # API_HTTP_Teste_Botao_2021
 Criar uma API HTTP para cadastro de alunos.
 
-Usando SpringJava e testendo no Postman.
-
-Usando uma IDE SpringTools e 
+Usando SpringJava, SpringTools, Postman,h-2 Controle.
 
 Este é um projeto que será excutados os seguintes passos.
 
