@@ -13,6 +13,10 @@ public class Aluno {
 	private Long id;
 	private String nomeAluno;
 	private String cpf;
+	
+	public Aluno() {
+		
+	}
 
 	public Aluno(String nomeAluno, String cpf) {
 		this.nomeAluno = nomeAluno;
