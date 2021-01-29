@@ -14,7 +14,7 @@ public class Aluno {
 	private Long id;
 	private String nomeAluno;
 	private String cpf;
-	private int  nota;
+	private int media;
 	
 	public Aluno() {
 		
@@ -74,12 +74,13 @@ public class Aluno {
 		this.cpf = cpf;
 	}
 
-	public int getNota() {
-		return nota;
+
+	public int getMedia() {
+		return media;
 	}
 
-	public void setNota(int nota) {
-		this.nota = nota;
+	public void setMedia(int media) {
+		this.media = media;
 	}
 	
 	

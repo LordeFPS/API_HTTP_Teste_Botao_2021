@@ -15,7 +15,7 @@ public class Gabarito {
 	// essas configuracoes com @ são do  JPA
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY) //o proprio DB gera um ID
 	private Long id;
-	private String respotaGabarito;
+	private String respostaGabarito;
 	
 	@ManyToOne
 	private Prova nomeProva;
@@ -60,10 +60,10 @@ public class Gabarito {
 		this.id = id;
 	}
 	public String getRespotaGabarito() {
-		return respotaGabarito;
+		return respostaGabarito;
 	}
 	public void setRespotaGabarito(String respotaGabarito) {
-		this.respotaGabarito = respotaGabarito;
+		this.respostaGabarito = respotaGabarito;
 	}
 	public Prova getNomeProva() {
 		return nomeProva;
