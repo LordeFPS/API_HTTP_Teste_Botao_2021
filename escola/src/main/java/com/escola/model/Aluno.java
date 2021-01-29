@@ -14,6 +14,7 @@ public class Aluno {
 	private Long id;
 	private String nomeAluno;
 	private String cpf;
+	private int  nota;
 	
 	public Aluno() {
 		
@@ -73,5 +74,14 @@ public class Aluno {
 		this.cpf = cpf;
 	}
 
+	public int getNota() {
+		return nota;
+	}
+
+	public void setNota(int nota) {
+		this.nota = nota;
+	}
+	
+	
 }
 
