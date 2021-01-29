@@ -5,11 +5,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
+
+
 
 
 
@@ -21,6 +25,8 @@ public class Prova {
 	private String provaNome;
 	private String provaGabarito;
 	private LocalDateTime dataCriacao = LocalDateTime.now();
+	@Enumerated(EnumType.STRING)// guardar um valor no DB
+	private StatusProva status = StatusProva.NAO_RESPONDIDO;
 	@ManyToOne
 	private Aluno nomeAluno;
 	@OneToMany(mappedBy = "topico") // uma prova pode ter varias respostas
