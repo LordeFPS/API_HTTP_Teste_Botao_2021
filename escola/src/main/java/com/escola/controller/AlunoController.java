@@ -1,4 +1,4 @@
-package com.escola.resources;
+package com.escola.controller;
 
 import java.util.List;
 
@@ -10,11 +10,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.escola.model.Aluno;
-import com.escola.repositories.AlunoRepository;
+import com.escola.repository.AlunoRepository;
+
+
 
 @RestController
 @RequestMapping("/aluno")
-public class AlunoResource {
+public class AlunoController {
 	
 	@Autowired
 	private AlunoRepository alunoRepository;
