@@ -15,7 +15,7 @@ import com.escola.repository.AlunoRepository;
 
 
 @RestController
-@RequestMapping("/aluno")
+@RequestMapping("/escola")
 public class AlunoController {
 	
 	@Autowired
