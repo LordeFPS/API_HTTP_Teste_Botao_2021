@@ -11,7 +11,6 @@ import javax.persistence.ManyToOne;
 
 @Entity
 public class Gabarito {
-	
 	// essas configuracoes com @ são do  JPA
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY) //o proprio DB gera um ID
 	private Long id;
